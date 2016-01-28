@@ -1,0 +1,240 @@
+.search-bar
+{
+  margin: 20px;
+  text-align: center;
+}
+.search-bar input{
+  width: 75%;
+}
+.video-item img{
+  max-width:64px;
+}
+.video-detail .details{
+  margin-top:10px;
+  padding: 10px;
+  border:1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item:hover
+{
+  background-color: #eee;
+}
+
+body {
+  color: #585c65;
+  font-size: 16px;
+}
+
+header {
+  max-height: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+header img {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  margin-left: -600px;
+  width: 1200px;
+}
+@media screen and (min-width: 1200px) {
+  header img {
+    top: auto;
+    left: auto;
+    margin: 0;
+    width: 100%;
+  }
+}
+header .name {
+  font-size: 21px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: white;
+}
+header .titles {
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  header .titles {
+    bottom: 50%;
+  }
+}
+header h1, header h2 {
+  width: 100%;
+  color: white;
+  margin: 0;
+}
+header h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+header h1 span {
+  display: block;
+}
+@media screen and (min-width: 992px) {
+  header h1 span {
+    display: inline;
+  }
+}
+header h2 {
+  font-size: 16px;
+  width: 70%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1200px) {
+  header h2 {
+    width: 100%;
+    margin: 0;
+  }
+}
+header .social {
+  position: absolute;
+  top: 55px;
+  right: 50px;
+  overflow: hidden;
+}
+header .social a {
+  float: left;
+  width: 26px;
+  height: 26px;
+  margin: 0 5px;
+  text-indent: -9999px;
+  background: url(../images/social-sprite.png) no-repeat;
+  opacity: 0.8;
+}
+header .social a:hover {
+  opacity: 1.0;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-min-device-pixel-ratio: 2) {
+  header .social a {
+    background: url(../images/social-sprite@2x.png) no-repeat;
+    -webkit-background-size: 76px 26px;
+    background-size: 76px 26px;
+  }
+}
+header .social a.facebook {
+  background-position: 0px 0px;
+}
+header .social a.twitter {
+  background-position: -25px 0px;
+}
+header .social a.instagram {
+  background-position: -50px 0px;
+}
+
+.instagram-wrap {
+  background: #eeeeee;
+}
+
+.instagram-content h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px 0;
+  color: #bbbbbb;
+}
+.instagram-content .photo-box {
+  margin: 0 0 30px 0;
+}
+.instagram-content .photo-box .image-wrap img {
+  width: 100%;
+}
+.instagram-content .photo-box .image-wrap .likes {
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  padding: 5px;
+  background: black;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+.instagram-content .photo-box .description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  background: white;
+  color: #9b9b9b;
+  letter-spacing: 1px;
+  padding: 15px;
+  height: 75px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+footer {
+  background: white;
+  padding: 30px 0;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  footer {
+    padding: 100px 0;
+  }
+}
+footer h4 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer .about-text {
+  padding: 0 30px;
+}
+@media screen and (min-width: 1200px) {
+  footer .about-text {
+    width: 650px;
+    margin: 0 auto;
+  }
+}
+footer .contact-now-btn {
+  display: inline-block;
+  width: 70%;
+  padding: 20px 50px;
+  margin-top: 20px;
+  color: white;
+  background: #585c65;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 992px) {
+  footer .contact-now-btn {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  footer .contact-now-btn {
+    width: 20%;
+    margin-top: 50px;
+  }
+}
+footer .contact-now-btn:hover {
+  background: #646873;
+}
+
+.footer-bottom {
+  background: white;
+  padding: 10px 60px;
+  border-top: 2px solid #eeeeee;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #9b9b9b;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 992px) {
+  .footer-bottom {
+    padding: 40px 0;
+  }
+}
