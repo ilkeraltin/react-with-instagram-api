@@ -22,7 +22,7 @@
     "fetch": "^1.0.0",
     "instagram-node-lib": "^0.1.1",
     "lodash": "^3.10.1",
-    "react": "^0.14.3",
+    "react": "^16.10.2",
     "react-dom": "^0.14.3",
     "react-fetch": "0.0.7",
     "react-redux": "^4.0.0",
