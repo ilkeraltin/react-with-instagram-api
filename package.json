@@ -21,7 +21,7 @@
     "babel-preset-stage-1": "^6.1.18",
     "fetch": "^1.0.0",
     "instagram-node-lib": "^0.1.1",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.19",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-fetch": "0.0.7",
